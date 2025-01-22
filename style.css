@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+html {
+  background-color: black;
+  color: white;
+    background-image: url(/assets/mainmask.png);
+    background-repeat: no-repeat;
+    background-size: 35%;
+    background-position-x: 100%;
+    scroll-behavior: smooth;
+}
+
+/* Navbar */
+.nav {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+nav, .nav {
+  filter: invert(1);
+  background-image: url(/assets/images.png);
+  background-size: 6%;
+  background-position-x: center;
+  background-position-y: 15%;
+  background-repeat: no-repeat;
+  padding: 20px;
+    display: flex;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+
+.bar, a {
+    margin: 20px 15px 0 5px;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* unvisited link */
+a:link {
+    color: white;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  /* selected link */
+  a:active {
+    color: white;
+  }
+
+  /* Konten */
+  .main {
+    margin-left: 10%;
+    width: 90%;
+  }
+
+  .logo2 {
+    width: 20%;
+  }
+
+  .title {
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    margin-left: 10px;
+  }
+
+  .button1 {
+    font-weight: 700;
+    background-color: white;
+    color: black;
+    width: 18%;
+    border-radius: 20px;
+    padding: 15px;
+    margin-left: 10px;
+    font-family: "Montserrat", sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+
+  .button1:hover {
+    background-color: black;
+    color: white;
+  }
+
+  .main2 {
+    margin-top: 20%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .fotomain2 {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .main3 {
+    padding: 50px 50px 10px 50px;
+    background-color: white;
+    color: black;
+    margin-top: 15%;
+  }
+
+  .logo {
+    width: 9%;
+    margin-left: 1%;
+    margin-bottom: 1%;
+  }
+
+  .sosmed {
+    margin-top: 5px;
+  }
+
+  .ig, .wa, .yt, .tiktok {
+    width: 2%;
+    margin-left: 10px;
+  }
+
+  .navfoot {
+    display: flex;
+    justify-content: center;
+  }
+
+
+  /* unvisited link */
+.navfooter:link {
+  color: black;
+}
+
+/* visited link */
+.navfooter:visited {
+  color: black;
+  text-decoration: underline;
+}
+
+/* mouse over link */
+.navfooter:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+/* selected link */
+.navfooter:active {
+  color: black;
+}
+
+.email {
+  width: 30%;
+  height: 20%;
+  font-size: large;
+  font-weight: 700;
+  border-radius: 15px;
+  margin-left: 10px;
+  margin-bottom: 40px;
+}
+
+.titlefoot {
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  margin-left: 10px;
+  font-size: small;
+}
+
+/* SHOP */
+.container_product {
+  display: flex;
+  justify-content: center;
+  margin-right: 35%;
+}
+
+.product {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  width: 220px;
+  height: 105px;
+  padding-bottom: 80px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  margin-left: 40px;
+  margin-bottom: 2%;
+}
+
+.imgproduct {
+  transition: all 0.3s ease;
+}
+
+.imgproduct:hover {
+  cursor: pointer;
+  padding: 20px;
+  opacity: 0.8;
+}
+
+.imgproduct {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 15px;
+}
+
+.titleproduct {
+  font-size: 15px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container_detail {
+  margin-left:150px;
+ margin-top: 100px;
+}
+
+.price {
+  display: flex;
+  gap: 10px;
+}
+
+.nominal {
+  margin-top: -21px;
+  margin-left: 200px;
+}
+
+.deskripsi {
+  display: flex;
+  margin-left: -45px;
+  margin-top: 25px;
+}
+
+.checkout {
+  padding: 15px 100px 15px 100px;
+  margin-top: 30px;
+  border-radius: 15px;
+}
+
+.main_detail {
+  display: flex;
+  margin-top: -6rem;
+}
+
+/* Media Query untuk Layar Lebar Maksimum 768px */
+@media (max-width: 768px) {
+  nav, .nav {
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+  }
+
+  .main {
+      margin-left: 5%;
+      width: 90%;
+  }
+
+  .main2 {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 10%;
+  }
+
+  .fotomain2 {
+      width: 100%;
+      margin-left: 0;
+  }
+
+  .main3 {
+      padding: 20px;
+  }
+
+  .container_product {
+      flex-direction: column;
+      align-items: center;
+      margin-right: 0;
+  }
+
+  .product {
+      width: 90%;
+      margin-left: 0;
+      margin-bottom: 20px;
+  }
+
+  .imgproduct {
+      width: 100%;
+      height: auto;
+  }
+
+  .main_detail {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 0;
+  }
+
+  .container_detail {
+      margin-left: 0;
+      margin-top: 20px;
+  }
+
+  .nominal {
+      margin: 10px 0;
+  }
+
+  .deskripsi {
+      flex-direction: column;
+      align-items: center;
+      margin-left: 0;
+      margin-top: 10px;
+  }
+
+  .checkout {
+      width: 100%;
+      padding: 15px;
+  }
+}
+
