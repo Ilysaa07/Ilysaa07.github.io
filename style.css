@@ -196,7 +196,6 @@ a:link {
 .imgproduct:hover {
   cursor: pointer;
   padding: 20px;
-  opacity: 0.8;
 }
 
 .imgproduct {
@@ -245,17 +244,69 @@ a:link {
   margin-top: -6rem;
 }
 
+.menu-toggle {
+  display: none;
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+  position: absolute;
+  top: 15px;
+  right: 20px;
+}
+
+
 /* Media Query untuk Layar Lebar Maksimum 768px */
 @media (max-width: 768px) {
-  nav, .nav {
-      flex-direction: column;
-      align-items: center;
-      padding: 10px;
+  html {
+    background-color: black;
+    color: white;
+      background-image: url(/assets/nav.png);
+      background-repeat: no-repeat;
+      background-size: 200%;
+      background-position-x: 50%;
+      background-position-y: -2%;
+      scroll-behavior: smooth;
   }
+
+  .menu-toggle {
+    display: block;
+    filter: invert(1);
+}
+
+  nav, .nav {
+      align-items: start;
+      padding: 25px;
+      background-size: 10%;
+      background-position-x: left;
+      background-position-y: 21px;
+      background-size: 15%;
+  }
+
+  .nav {
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: transparent;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    padding: 15px;
+}
+
+.nav.active {
+    display: flex;
+}
+
+.bar {
+    margin: 10px 0;
+}
 
   .main {
       margin-left: 5%;
       width: 90%;
+      margin-bottom: 18rem;
+      margin-top: 10rem;
   }
 
   .main2 {
@@ -315,6 +366,25 @@ a:link {
   .checkout {
       width: 100%;
       padding: 15px;
+  }
+
+  .logo2 {
+    display: flex;
+    justify-content: center;
+    margin-left: 7.5rem;
+    width: 100px;
+  }
+
+  .title {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .button1 {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    margin-left: 7rem;
   }
 }
 
